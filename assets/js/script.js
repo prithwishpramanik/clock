@@ -14,7 +14,7 @@ function Time() {
     tick();
     interval = setInterval(tick, 1000);
 }
-var alarm = new Audio("./js/analog-watch-alarm.mp3");
+var alarm = new Audio("./assets/media/analog-watch-alarm.mp3");
 var myModal = document.getElementById('alarmmodal');
 myModal.addEventListener('hidden.bs.modal', function (event) {
     alarm.pause(); alarm.loop=false;
